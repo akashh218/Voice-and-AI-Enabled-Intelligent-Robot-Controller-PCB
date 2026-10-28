@@ -1,0 +1,209 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "86636352-4a43-4bf6-b3b5-dd8de505db36")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 83.185 104.775)
+		(size 56.515 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "54ed753c-d56b-491a-aa96-9241c31060e3")
+		(property "Sheetname" "motordriver+amplifier"
+			(at 83.185 104.0634 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motordriver.kicad_sch"
+			(at 83.185 151.0796 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Robot Controller PCB"
+				(path "/86636352-4a43-4bf6-b3b5-dd8de505db36"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 105.41)
+		(size 56.515 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "999deede-6559-4e34-8536-63dceec16448")
+		(property "Sheetname" "power+connectors"
+			(at 146.05 104.6984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 146.05 151.7146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Robot Controller PCB"
+				(path "/86636352-4a43-4bf6-b3b5-dd8de505db36"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.685 46.99)
+		(size 55.88 42.545)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b7e2286f-7d44-44a2-806e-eb22ddb9e71e")
+		(property "Sheetname" "vc-02"
+			(at 146.685 46.2784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "vc-02.kicad_sch"
+			(at 146.685 90.1196 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 146.685 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Robot Controller PCB"
+				(path "/86636352-4a43-4bf6-b3b5-dd8de505db36"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 46.99)
+		(size 55.88 42.545)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "edc9714c-4928-4404-9c2c-10ca92c1ce57")
+		(property "Sheetname" "esp32"
+			(at 83.82 46.2784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32.kicad_sch"
+			(at 83.82 90.1196 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Robot Controller PCB"
+				(path "/86636352-4a43-4bf6-b3b5-dd8de505db36"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
